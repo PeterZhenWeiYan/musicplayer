@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css" />
+    <title>响应式导航菜单</title>
+    
+<link rel="stylesheet" href="fonts/iconfont.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/player.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">CLOUD_music</div>
+      <ul class="nav-menu">
+        <li><a href="index.html">music</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <div class="burger">
+        <div class="top-line"></div>
+        <div class="middle-line">
+            
+        </div>
+        <div class="bottom-line"></div>
+      </div>
+    </nav>
+        <script>
+             if(!window.name){
+                      window.name = 'test';
+                      window.location.reload();
+             }
+        </script>
+        <script src="/demos/googlegg.js"></script>
+        
+        
+        <div class="music-player">
+        
+            <audio class="music-player__audio" ></audio>
+        
+            <div class="music-player__main">
+        
+                <div class="music-player__blur"></div>
+        
+                <div class="music-player__disc">
+        
+                    <div class="music-player__image">
+                        <img width="100%" src="" alt="">
+                    </div>
+        
+                    <div class="music-player__pointer"><img width="100%" src="./images/cd_tou.png" alt=""></div>
+                </div>
+        
+                <div class="music-player__controls">
+        
+                    <div class="music__info">
+                        <h3 class="music__info--title">...</h3>
+                        <p class="music__info--singer">...</p>
+                    </div>
+        
+                    <div class="player-control">
+                        <div class="player-control__content">
+                            <div class="player-control__btns">
+                                <div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div>
+                                <div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div>
+                                <div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div>
+                                <div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-loop"></i></div>
+                            </div>
+                            <div class="player-control__volume">
+                                <div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div>
+                                <div class="control__volume--progress progress"></div>
+                            </div>
+                        </div>
+        
+        
+                        <div class="player-control__content">
+                            <div class="player__song--progress progress"></div>
+                            <div class="player__song--timeProgess nowTime">00:00</div>
+                            <div class="player__song--timeProgess totalTime">00:00</div>
+                        </div>
+        
+                    </div>
+        
+                </div>
+            </div>
+        
+        </div>
+        
+        <script src="js/utill.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/player.js"></script>
+        
+        <div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
+        </div>
+    <header></header>
+  </body>
+</html>

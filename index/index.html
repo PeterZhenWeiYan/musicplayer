@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUD_music</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop.css" media="( max-width:780px )">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="shortcut icon" href="images/ico.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1><a href="#">CLOUD_music</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="" target="_blank" title="CLOUD_music">music</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <main>
+        <h1>welcome to CLOUD_music</h1>
+    </main>
+    <nav>
+
+
+        <input type="checkbox" id="toggler">
+        <label for="toggler">
+            <div class="hamburger-container">
+                <span></span>
+                <span></span>
+            </div>
+        </label>
+    </nav>
+    <section class="sec">
+        <div class="center_nav">
+            <div class="part1 pt">
+                <div class="imghid"><div class="img"><img src="images/closer.jpg" alt="" width="100%"></div></div>
+                <div class="txt">
+                    <h1>closer</h1>
+                    <p>I've had enough, of this parade.</p>
+                        　　<p>I'm thinking of, the words to say.
+                        　　
+                        </p>
+                    <p>We open up, unfinished parts,</p>
+                        　<p>　Broken up, its so mellow...</p>
+                        <audio src="songs/closer.mp3" controls="true"> </audio>
+                </div>
+            </div>
+            <div class="part2 pt">
+                <div class="txt">
+                    <h1>Baby</h1>
+                    <p>&emsp;You know you love me, I know you care</p>
+
+                    <p> Just shout whenever, and I'll be there</p>
+                        
+                        <p> You are my love, you are my heart</p>
+                    <p>And we will never, ever , ever be apart...</p>
+                    <audio src="songs/baby.mp3" controls="true"> </audio>
+                </div>
+                <div class="imghid"><div class="img"><img src="images/baby.jpg" width="100%" alt=""></div></div>
+            </div>
+            <div class="part3 pt">
+                <div class="imghid"><div class="img"><img src="images/fade.jpg" alt="" width="100%"></div></div>
+                <div class="txt">
+                    <h1>Faded</h1>
+                    <p>Where are you now</p>
+                    <p>Another dream</p>
+                    <p>The monster's running wild inside of me</p>
+                    <p>I'm faded...</p>
+                    <audio src="songs/faded.mp3" controls="true"> </audio>
+                </div>
+            </div>
+            <div class="part4 pt">
+                <div class="txt">
+                    <h1>tonight</h1>
+                    <p>I know we both shared a past</p>
+                    <p> Of regrets and scars</p>
+                    <p> But we can leave it behind</p>
+                    <p> And just run away far...</p>
+                    <audio src="songs/tonight.mp3" controls="true"> </audio>
+                </div>
+                <div class="imghid"><div class="img"><img src="images/tonight.jpg" width="100%" alt=""></div></div>
+            </div>
+        </div>
+    </section>
+    <script>
+             if(!window.name){
+                      window.name = 'test';
+                      window.location.reload();
+             }
+        </script>
+        
+        <div class="music-player">
+            <audio class="music-player__audio" ></audio>
+            <div class="music-player__main">
+                <div class="music-player__blur"></div>
+                <div class="music-player__disc">
+                    <div class="music-player__image">
+                        <img width="100%" src="" alt="">
+                    </div>
+                    <div class="music-player__pointer"><img width="100%" src="" alt=""></div>
+                </div>
+                <div class="music-player__controls">
+                    <div class="music__info">
+                        <h3 class="music__info--title">...</h3>
+                        <p class="music__info--singer">...</p>
+                    </div>
+                    <div class="player-control">
+                        <div class="player-control__content">
+                            <div class="player-control__btns">
+                                <div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div>
+                                <div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div>
+                                <div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div>
+                                <div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-loop"></i></div>
+                            </div>
+                            <div class="player-control__volume">
+                                <div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div>
+                                <div class="control__volume--progress progress"></div>
+                            </div>
+                        </div>
+                        <div class="player-control__content">
+                            <div class="player__song--progress progress"></div>
+                            <div class="player__song--timeProgess nowTime">00:00</div>
+                            <div class="player__song--timeProgess totalTime">00:00</div>
+                        </div>
+                      
+                    </div>
+          <div class="music-player__list">
+                            <ul class="music__list_content">
+                                <!-- <li class="music__list__item play">123</li>
+                                <li class="music__list__item">123</li>
+                                <li class="music__list__item">123</li> -->
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/utill.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/player.js"></script>
+        
+        <div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
+        </div>
+</body>
+
+
+</html>

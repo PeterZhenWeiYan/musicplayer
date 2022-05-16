@@ -1,0 +1,86 @@
+.sec{
+    height: 130vh;
+    width: 100%;
+    scroll-snap-align: start;
+    overflow: hidden;
+}
+
+.pt{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 250px;
+    float: left;
+    margin: 150px 0px 0px 105px;
+    background: rgba(219, 235, 241,0.8);
+    box-shadow: 0 0 15px rgb(137, 185, 222);
+    border-radius: 15px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: all 0.5s ease 0s;
+}
+.pt:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.center_nav{
+    width: 150%;
+    margin: 0 auto;
+}
+.imghid{
+    overflow: hidden;
+}
+.part1 .img{
+    background-image: url("../img/shejishi.jpg");
+}
+.part2 .img{
+    background-image: url("../img/yundong1.jpg");
+}
+.part3 .img{
+    background-image: url("../img/sushe01.jpg");
+}
+.part4 .img{
+    background-image: url("../img/qianduan.jpg");
+}
+.part1,.part3{
+    margin-top: 400px;
+}
+
+.pt .img{
+    height: 190px;
+    width: 250px;
+    background-size: cover;
+    background-position: 0px -30px;
+    transition: all 0.5s ease 0s;
+    opacity: 0.8;
+}
+
+.pt .img:hover{
+    transform: scale(1.1);
+}
+
+.pt .txt{
+    height: 310px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.pt .txt h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(49, 210, 255);
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pt .txt p{
+    margin-top: -2px;
+    word-wrap: break-word;
+    color: rgb(85, 46, 16);
+}

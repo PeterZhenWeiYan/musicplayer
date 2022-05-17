@@ -35,22 +35,29 @@ class Musics {
                 id: 2,
                 title: 'Baby',
                 singer: 'baby - 贾斯汀·比伯',
-                songUrl: './songs/なんでもないや (movie ver.) - RADWIMPS.mp3',
+                songUrl: './songs/baby.mp3',
                 imageUrl: './images/songs/baby.jpg'
             },
 			{
                 id: 3,
                 title: 'Faded',
                 singer: 'Faded - Allan walker',
-                songUrl: './songs/なんでもないや (movie edit) - RADWIMPS.mp3',
+                songUrl: './songs/faded.mp3',
                 imageUrl: './images/songs/fade.jpg'
             },
             {
                 id: 4,
                 title: 'Tonight',
                 singer: 'Tonight - Demxntia',
-                songUrl: './songs/夢灯籠 - RADWIMPS.mp3',
+                songUrl: './songs/tonight.mp3',
                 imageUrl: './images/songs/tonight.jpg'
+            },
+            {
+                id: 5,
+                title: 'Freedom',
+                singer: 'Freedom - (被解救的姜戈主题曲)',
+                songUrl: './songs/freedom.mp3',
+                imageUrl: './images/freedom.jpg'
             }
         ]
     }

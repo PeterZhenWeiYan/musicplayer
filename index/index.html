@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/player.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/iconfont.css">
     <link rel="shortcut icon" href="images/ico.ico" type="image/x-icon">
 </head>
 
@@ -51,7 +52,6 @@
                         </p>
                     <p>We open up, unfinished parts,</p>
                         　<p>　Broken up, its so mellow...</p>
-                        <audio src="songs/closer.mp3" controls="true"> </audio>
                 </div>
             </div>
             <div class="part2 pt">
@@ -63,7 +63,6 @@
                         
                         <p> You are my love, you are my heart</p>
                     <p>And we will never, ever , ever be apart...</p>
-                    <audio src="songs/baby.mp3" controls="true"> </audio>
                 </div>
                 <div class="imghid"><div class="img"><img src="images/baby.jpg" width="100%" alt=""></div></div>
             </div>
@@ -75,7 +74,6 @@
                     <p>Another dream</p>
                     <p>The monster's running wild inside of me</p>
                     <p>I'm faded...</p>
-                    <audio src="songs/faded.mp3" controls="true"> </audio>
                 </div>
             </div>
             <div class="part4 pt">
@@ -85,65 +83,88 @@
                     <p> Of regrets and scars</p>
                     <p> But we can leave it behind</p>
                     <p> And just run away far...</p>
-                    <audio src="songs/tonight.mp3" controls="true"> </audio>
                 </div>
                 <div class="imghid"><div class="img"><img src="images/tonight.jpg" width="100%" alt=""></div></div>
             </div>
         </div>
     </section>
+    <div class="center">
+        <div class="center_img">
+<img src="images/freedom.jpg" alt="" width="100%" height="100%">
+        </div>
+        <div class="center_title">
+<h1>Freedom</h1>
+<p>Freedom comes from the soundtrack of the film "the rescued ginger", </p>
+   <p> which is sung by American soul singers Anthony Hamilton and elayna Boynton. </p>
+   <p> song creates a kind of Psychedelic free heroism, with rebellious rhythm and drums,</p>
+   <p> deep and powerful, and comes with a strong R & B soul breath. </p>
+    <p> two singers are full and thick, with a little hoarse voice, </p>
+    <p>and the appropriate singing skills sublimate the overall atmosphere!</p>
+        </div>
+    </div>
     <script>
              if(!window.name){
                       window.name = 'test';
                       window.location.reload();
              }
         </script>
-        
+        <script src="/demos/googlegg.js"></script>
         <div class="music-player">
-            <audio class="music-player__audio" ></audio>
-            <div class="music-player__main">
-                <div class="music-player__blur"></div>
-                <div class="music-player__disc">
-                    <div class="music-player__image">
-                        <img width="100%" src="" alt="">
-                    </div>
-                    <div class="music-player__pointer"><img width="100%" src="" alt=""></div>
-                </div>
-                <div class="music-player__controls">
-                    <div class="music__info">
-                        <h3 class="music__info--title">...</h3>
-                        <p class="music__info--singer">...</p>
-                    </div>
-                    <div class="player-control">
-                        <div class="player-control__content">
-                            <div class="player-control__btns">
-                                <div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div>
-                                <div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div>
-                                <div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div>
-                                <div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-loop"></i></div>
-                            </div>
-                            <div class="player-control__volume">
-                                <div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div>
-                                <div class="control__volume--progress progress"></div>
-                            </div>
-                        </div>
-                        <div class="player-control__content">
-                            <div class="player__song--progress progress"></div>
-                            <div class="player__song--timeProgess nowTime">00:00</div>
-                            <div class="player__song--timeProgess totalTime">00:00</div>
-                        </div>
-                      
-                    </div>
-          <div class="music-player__list">
-                            <ul class="music__list_content">
-                                <!-- <li class="music__list__item play">123</li>
-                                <li class="music__list__item">123</li>
-                                <li class="music__list__item">123</li> -->
-                            </ul>
-                        </div>
-                </div>
-            </div>
-        </div>
-        
+
+	<audio class="music-player__audio" ></audio>
+
+	<div class="music-player__main">
+
+		<div class="music-player__blur"></div>
+
+		<div class="music-player__disc">
+
+			<div class="music-player__image">
+				<img width="100%" src="" alt="">
+			</div>
+
+			<div class="music-player__pointer"><img width="100%" src="./images/cd_tou.png" alt=""></div>
+		</div>
+
+		<div class="music-player__controls">
+
+			<div class="music__info">
+				<h3 class="music__info--title">...</h3>
+				<p class="music__info--singer">...</p>
+			</div>
+
+			<div class="player-control">
+				<div class="player-control__content">
+					<div class="player-control__btns">
+						<div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div>
+						<div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div>
+						<div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div>
+						<div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-loop"></i></div>
+					</div>
+					<div class="player-control__volume">
+						<div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div>
+						<div class="control__volume--progress progress"></div>
+					</div>
+				</div>
+
+	
+				<div class="player-control__content">
+					<div class="player__song--progress progress"></div>
+					<div class="player__song--timeProgess nowTime">00:00</div>
+					<div class="player__song--timeProgess totalTime">00:00</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="music-player__list">
+		<ul class="music__list_content">
+		
+		</ul>
+	</div>
+</div>
         <script src="js/utill.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/player.js"></script>

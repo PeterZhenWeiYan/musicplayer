@@ -1,12 +1,13 @@
 
 .music-player {
-    width: 550px;
+    width: 680px;
+    overflow: hidden;
 }
 
 .music-player {
-    position: relative;
-    margin-top: 344px ;
-    margin-left: 35px;
+        position: relative;
+    margin-top: 210px ;
+    margin-left: 320px;
 }
 
 
